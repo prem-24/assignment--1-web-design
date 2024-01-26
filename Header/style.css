@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  /* margin-left: 10vw;
+    margin-right: 10vw; */
+  background-color: #7465cd;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80vw;
+  background-color: #7465cd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-color: 7465CD;
+  padding: 20px 20px;
+  justify-content: center;
+  width: 40vw;
+}
+.nav {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  width: 60vw;
+}
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #bebecb;
+}
+
+.logo {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  align-items: center;
+}
+.logo h2 {
+  color: #ffffff;
+}
+
+/* section design */
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top: 5%;
+  /* background: #61616d; */
+}
+
+.hero-container {
+  width: 80%;
+  /* background-color: #7465cd; */
+  display: flex;
+}
+
+.hero-child-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+}
+.hero-child-2 {
+  width: 50%;
+}
+
+.hero-child-2 > img:nth-child(1) {
+  width: 100%;
+}
+
+.hero-container .hero-child-1 > p:nth-child(1) {
+  color: #e5a996;
+  /* font-family: Poppins; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  letter-spacing: 15.6px;
+}
+
+.hero-container .hero-child-1 > h1:nth-child(2) {
+  color: #5aaaa3;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 72.5px */
+}
+
+.hero-container .hero-child-1 > p:nth-child(3) {
+  font-size: 18px;
+  color: #61616d;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.buttons > button:nth-child(1) {
+  padding: 16px 34px;
+  font-size: 16px;
+  background: #078D84;
+  border-radius: 8px;
+  border-style: solid;
+  /* border-color: #078D84; */
+  border: 1px solid #078D84;
+  color: #ffffff;
+}
+
+.buttons > 
+button:nth-child(2) {
+    padding: 16px 34px;
+  font-size: 16px;
+    background-color: #ffffff;
+    color: #5aaaa3;
+    border-radius: 8px;
+    border: 2px solid #078D84;
+}
+
+
+.buttons {
+  width: 53%;
+  /* background-color: #bebecb; */
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+.buttons >  button:nth-child(2):hover{
+    padding: 16px 34px;
+  font-size: 16px;
+  background: #078D84;
+  border-radius: 8px;
+  border-style: solid;
+  /* border-color: #078D84; */
+  border: 1px solid #078D84;
+  color: #ffffff;
+}
+
+
+.buttons > button:nth-child(1):hover{
+    background-color: #ffffff;
+    color: #5aaaa3;
+    border-radius: 8px;
+    border: 1.5px solid #078D84;
+}
+
+
+
+/* job card design */
+
+.section-2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: start; */
+    align-items: center;
+    height: 600px;
+    /* background-color: #5d5dd2; */
+
+    
+
+
+}
+
+
+.card-container-1{
+    width: 30%;
+    /* background-color: #e5a996; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 19.247px;
+    background: #7465CD;
+    padding: 25px;
+}
+
+.card-container-2{
+    width: 30%;
+    /* background-color: #e5a996; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 19.247px;
+    background: #659BCD;;
+    padding: 25px;
+}
+
+.card-container-3{
+    width: 30%;
+    /* background-color: #e5a996; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 19.247px;
+    background: #62AAA5;
+    padding: 25px;
+}
+
+.card-container-1>.text-1{
+    color: #FFF;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.card-container-2>.text-1{
+    color: #FFF;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.card-container-3>.text-1{
+    color: #FFF;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.cont-card{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.c-img{
+    width: 50px;
+    /* margin: 10px; */
+}
+
+.c-img>img{
+    width: 100%;
+}
+
+.text-2,.text-3{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.card-button1,.card-button2{
+    padding: 10px;
+    background-color: #ffffff;
+    color: #5aaaa3;
+    border-radius: 8px;
+    border: 1.5px solid #078D84;
+}
+
+.card-button1:hover{
+    background-color: #5aaaa3;
+    color: #d9dfde;
+}
+
+.card-button2:hover{
+    background-color: #5aaaa3;
+    color: #d9dfde;
+}
+.buttons-1{
+    margin-top: 10px;
+    display: flex;
+    width: 70%;
+    gap: 20px;
+}
+
+.jobs.title{
+    color: #61616D;
+font-family: Poppins;
+font-size: 33.682px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.T-1{
+    
+    justify-content: center;
+    display: flex;
+    align-items: start;
+    position: relative;
+}
+
+.jobs-title{
+    width: 80%;
+    color: #61616D;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+/* margin: 15px; */
+/* position: absolute; */
+/* bottom: 10px; */
+/* top: 60px; */
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9E7F5;
+}
+
+.foot-t{
+    width: 80%;
+    background: #E9E7F5;
+    align-items: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.foot-t>p{
+    color: #7465CD;
+/* font-family: Montserrat; */
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
